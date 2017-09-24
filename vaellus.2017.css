@@ -7,27 +7,27 @@ body {
 		margin: 0;
 }
 div#verho, #pohja{
-		background-size: 100%;		
-		position: absolute;
-		top: 7px;
-		left: calc((100% - 900px)/2); /*taustan leveys asetetaan tässä*/
-    		/*width: 100%;*/
-    		width: 900px;
-		height: calc(100% - 7px);
-		margin: 0;
+  background-size: 100%;
+	position: absolute;
+	top: 7px;
+	left: calc((100% - 900px)/2); /*taustan leveys asetetaan tässä*/
+  /*width: 100%;*/
+  width: 900px;
+  height: calc(100% - 7px);
+  margin: 0;
 }
 div#verho {
-		background-image: url('_IGP2002_tausta_00.png');
-		background-position: center top;
-		background-repeat: no-repeat;
-    		background-size: 100%;
-    		pointer-events: none;
-		z-index: 15;
-    		box-shadow: 2px 1px 5px 3px #888888;
+  background-image: url('_IGP2002_tausta_00.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+  z-index: 15;
+  box-shadow: 2px 1px 5px 3px #888888;
 }
 div#pohja {
 		background-color: gainsboro;
-		z-index: 0;		
+		z-index: 0;
 }
 article {
 		/*background-image: url('_IGP2002_tausta_00.png');
@@ -49,11 +49,11 @@ article.paistunturit2007 {
 article.kaldoaivi2008 {
 		background-image: url('Kaldoaivi 2008/background2.jpg');
 }
-article.p�yrisj�rvi2009 {
-		background-image: url('P�yrisj�rvi 2009/background.jpg');
+article.pöyrisjärvi2009 {
+		background-image: url('Pöyrisjärvi 2009/background.jpg');
 }
-article.v�ts�ri2011 {
-		background-image: url('V�ts�ri 2011/background.jpg');
+article.vätsäri2011 {
+		background-image: url('Vätsäri 2011/background.jpg');
 }
 article.muotkatunturit2012 {
 		background-image: url('Muotkatunturit 2012/background.jpg');
@@ -68,7 +68,7 @@ header {
 		padding-top: 85px;
 }
 header.paistunturit2007 {
-		/* n�m� olivat yhteens� 230px, nyt 200px*/
+		/* nämä olivat yhteensä 230px, nyt 200px*/
 		height: 50px;
 		padding-top: 150px;
 }
@@ -76,11 +76,11 @@ header.kaldoaivi2008 {
 		height: 120px;
 		padding-top: 110px;
 }
-header.p�yrisj�rvi2009 {
+header.pöyrisjärvi2009 {
 		height: 100px;
 		padding-top: 130px;
 }
-header.v�ts�ri2011 {
+header.vätsäri2011 {
 		height: 103px;
 		padding-top: 127px;
 }
