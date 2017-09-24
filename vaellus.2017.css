@@ -2,9 +2,8 @@ body {
   /*background-color: white;*/
   background-color: rgb(180,180,170);
   /*background-color: rgb(152,151,149);*/
-
-		font-family: 'Josefin Sans', serif;
-		margin: 0;
+  font-family: 'Josefin Sans', serif;
+  margin: 0;
 }
 div#verho, #pohja{
   background-size: 100%;
@@ -26,77 +25,77 @@ div#verho {
   box-shadow: 2px 1px 5px 3px #888888;
 }
 div#pohja {
-		background-color: gainsboro;
-		z-index: 0;
+  background-color: gainsboro;
+  z-index: 0;
 }
 article {
-		/*background-image: url('_IGP2002_tausta_00.png');
-		background-position: center top;
-		background-repeat: no-repeat;
-		background-size: 900px;*/
-		position: absolute;
-		top: 0;
-		left: 0;
-		/*width: 100%;*/
-		width: 100%;
-		height: 100%;
-		margin: 0;
+  /*background-image: url('_IGP2002_tausta_00.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 900px;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*width: 100%;*/
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 /* article::before {background-image: url('background.png');} /*IT NOT WORKING?!!*/
 article.paistunturit2007 {
-		background-image: url('Kevo-Paistunturi 2007/background.png');
+  background-image: url('Kevo-Paistunturi 2007/background.png');
 }
 article.kaldoaivi2008 {
-		background-image: url('Kaldoaivi 2008/background2.jpg');
+  background-image: url('Kaldoaivi 2008/background2.jpg');
 }
 article.pöyrisjärvi2009 {
-		background-image: url('Pöyrisjärvi 2009/background.jpg');
+  background-image: url('Pöyrisjärvi 2009/background.jpg');
 }
 article.vätsäri2011 {
-		background-image: url('Vätsäri 2011/background.jpg');
+  background-image: url('Vätsäri 2011/background.jpg');
 }
 article.muotkatunturit2012 {
-		background-image: url('Muotkatunturit 2012/background.jpg');
+  background-image: url('Muotkatunturit 2012/background.jpg');
 }
 header {
-		/*position: absolute; BAD!!*/
-		position: relative;
-		z-index: 20;
-		width: 840px;
-		height: 60px;
-		margin: 0 auto 0 auto;
-		padding-top: 85px;
+  /*position: absolute; BAD!!*/
+  position: relative;
+  z-index: 20;
+  width: 840px;
+  height: 60px;
+  margin: 0 auto 0 auto;
+  padding-top: 85px;
 }
 header.paistunturit2007 {
-		/* nämä olivat yhteensä 230px, nyt 200px*/
-		height: 50px;
-		padding-top: 150px;
+  /* nämä olivat yhteensä 230px, nyt 200px*/
+  height: 50px;
+  padding-top: 150px;
 }
 header.kaldoaivi2008 {
-		height: 120px;
-		padding-top: 110px;
+  height: 120px;
+  padding-top: 110px;
 }
 header.pöyrisjärvi2009 {
-		height: 100px;
-		padding-top: 130px;
+  height: 100px;
+  padding-top: 130px;
 }
 header.vätsäri2011 {
-		height: 103px;
-		padding-top: 127px;
+  height: 103px;
+  padding-top: 127px;
 }
 header.muotkatunturit2012 {
-		height: 100px;
-		padding-top: 130px;
+	height: 100px;
+	padding-top: 130px;
 }
 section {
-		cursor: ns-resize;
-        width: 420px;
-		height: inherit;
-        margin: 0;
-        border: 0;
-		padding-right: 30px;
-		padding-top: 60px; /*pudottaa kappaleet aluksi alemmas*/
-        overflow: auto;
+	cursor: ns-resize;
+  width: 420px;
+  height: inherit;
+  margin: 0;
+  border: 0;
+	padding-right: 30px;
+	padding-top: 60px; /*pudottaa kappaleet aluksi alemmas*/
+  overflow: auto;
 }
 section.text {
   width: 490px;
@@ -105,64 +104,64 @@ section.text {
 }
 section.images {
   width: 320px;
-        height: 500px;
-        padding-left: 30px;
-        /*padding-top: 90px;*/
+  height: 500px;
+  padding-left: 30px;
+  /*padding-top: 90px;*/
 }
 h1 {
-        font-family: 'Montez', cursive;
-		font-size: 2em;
-		color: white;
-		opacity: 0.9;
-		text-shadow: black 0.1em 0.1em 0.2em;
-		margin: 0;
+  font-family: 'Montez', cursive;
+	font-size: 2em;
+	color: white;
+	opacity: 0.9;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	margin: 0;
 }
 h2 {
-        font-family: 'Montez', cursive;
-		font-size: 1.5em;
-		margin: 0.5em 0 0.5em 0;
+  font-family: 'Montez', cursive;
+	font-size: 1.5em;
+	margin: 0.5em 0 0.5em 0;
 }
 p {
-        font-family: inherit;
-        font-size: 1em;
-		line-height: 1.3em;
-		hyphens: auto;
-    /*width: 500px;*/
-    width: inherit;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.3em;
+  hyphens: auto;
+  /*width: 500px;*/
+  width: inherit;
 }
 ul{
-		list-style-type: none;
-		padding: 0 0 0.5em 0.5em;
-		margin: 0;
+  list-style-type: none;
+  padding: 0 0 0.5em 0.5em;
+  margin: 0;
 }
 li {
-        font-family: inherit;
-        font-size: 16px;
-		line-height: 1.4em;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.4em;
 }
 a {
-        text-decoration: none;
-        color: #0033cc;
+  text-decoration: none;
+  color: #0033cc;
 }
 table, th, td {
-        width: 450px;
-        border-collapse: collapse;
-        border: 2px ridge rgb(254,137,58);
-        margin-top: 20px;
-        padding: 3px;
+  width: 450px;
+  border-collapse: collapse;
+  border: 2px ridge rgb(254,137,58);
+  margin-top: 20px;
+  padding: 3px;
 }
 #content {
-		width: 840px;
-		height: 60%;
-		height: calc(100% - 160px);
-		/* height: 100% - header (padding+height+20); START HERE!*/
-		margin: 0 auto 0 auto;
+  width: 840px;
+  height: 60%;
+  height: calc(100% - 160px);
+  /* height: 100% - header (padding+height+20); START HERE!*/
+  margin: 0 auto 0 auto;
 }
 #column {
-		/*width: 420px;*/
-		height: 100%;
-		float: left;
-		overflow: hidden;
+  /*width: 420px;*/
+  height: 100%;
+  float: left;
+  overflow: hidden;
 }
 #column.left {
   width: 490px;
@@ -174,30 +173,30 @@ div#alkukuva{
   padding-top: 60px;
 }
 iframe.alkukuva{
-/* 		transform: scale(0.5, 0.5);	*/
+  /* 		transform: scale(0.5, 0.5);	*/
 }
 .image {
-        width: 320px;
-        height: auto;
-        margin-bottom: 200px;
-		border: 0px;
-        clear: both;
-        text-align: center;
+  width: 320px;
+  height: auto;
+  margin-bottom: 200px;
+  border: 0px;
+  clear: both;
+  text-align: center;
 }
 .image a {
-        background-color: transparent;
-        border: 0px;
-        color: #0033cc;
+  background-color: transparent;
+  border: 0px;
+  color: #0033cc;
 }
 .image p {
-        font-size: 0.9em;
-		line-height: 1.2em;
+  font-size: 0.9em;
+  line-height: 1.2em;
 }
 .image img {
-		border: 0;
-        border: 1px solid white;
+  border: 0;
+  border: 1px solid white;
 }
 .image iframe {
-		border: 1px solid white;
-		opacity: 0.66;
+  border: 1px solid white;
+  opacity: 0.66;
 }
