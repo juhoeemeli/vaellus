@@ -170,7 +170,8 @@ table, th, td {
   width: 350px;
 }
 div#alkukuva{
-  padding-top: 60px;
+	width: 320px; /*testissä*/
+	padding-top: 60px;
 }
 iframe.alkukuva{
   /* 		transform: scale(0.5, 0.5);	*/
