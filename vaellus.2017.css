@@ -150,9 +150,9 @@ table, th, td {
   margin-top: 20px;
   padding: 3px;
 }
-img {
+/*img {
 	width: inherit;
-}
+} tarpeeton */
 #content {
   width: 840px;
   height: 60%;
@@ -196,7 +196,7 @@ iframe.alkukuva{
   line-height: 1.2em;
 }
 .image img {
-	width: inherit;
+	width: 320px;
 	border: 0;
 	border: 1px solid white;
 }
