@@ -150,6 +150,9 @@ table, th, td {
   margin-top: 20px;
   padding: 3px;
 }
+img {
+	width: inherit;
+}
 #content {
   width: 840px;
   height: 60%;
@@ -170,7 +173,6 @@ table, th, td {
   width: 350px;
 }
 div#alkukuva{
-	width: 320px; /*testissä*/
 	padding-top: 60px;
 }
 iframe.alkukuva{
