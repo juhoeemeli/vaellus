@@ -196,8 +196,9 @@ iframe.alkukuva{
   line-height: 1.2em;
 }
 .image img {
-  border: 0;
-  border: 1px solid white;
+	width: inherit;
+	border: 0;
+	border: 1px solid white;
 }
 .image iframe {
   border: 1px solid white;
