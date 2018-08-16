@@ -16,7 +16,7 @@ div#verho, #pohja{
   margin: 0;
 }
 div#verho {
-  background-image: url('http://malmiinfbp.cluster026.hosting.ovh.net/vaelluskuvat/_IGP2002_tausta_00.png');
+  background-image: url('kuvat.vaellus.malmi.info/_IGP2002_tausta_00.png_IGP2002_tausta_00.png');
 	background-position: center top;
 	background-repeat: no-repeat;
   background-size: 100%;
@@ -29,7 +29,7 @@ div#pohja {
   z-index: 0;
 }
 article {
-  /*background-image: url('_IGP2002_tausta_00.png');
+  /*background-image: url('kuvat.vaellus.malmi.info/_IGP2002_tausta_00.png');
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 900px;*/
@@ -43,19 +43,19 @@ article {
 }
 /* article::before {background-image: url('background.png');} /*IT NOT WORKING?!!*/
 article.paistunturit2007 {
-  background-image: url('Kevo-Paistunturi 2007/background.png');
+  background-image: url('kuvat.vaellus.malmi.info/Kevo-Paistunturi 2007/background.png');
 }
 article.kaldoaivi2008 {
-  background-image: url('Kaldoaivi 2008/background2.jpg');
+  background-image: url('kuvat.vaellus.malmi.info/Kaldoaivi 2008/background2.jpg');
 }
 article.pöyrisjärvi2009 {
-  background-image: url('Pöyrisjärvi 2009/background.jpg');
+  background-image: url('kuvat.vaellus.malmi.info/Pöyrisjärvi 2009/background.jpg');
 }
 article.vätsäri2011 {
-  background-image: url('Vätsäri 2011/background.jpg');
+  background-image: url('kuvat.vaellus.malmi.info/Vätsäri 2011/background.jpg');
 }
 article.muotkatunturit2012 {
-  background-image: url('Muotkatunturit 2012/background.jpg');
+  background-image: url('kuvat.vaellus.malmi.info/Muotkatunturit 2012/background.jpg');
 }
 header {
   /*position: absolute; BAD!!*/
