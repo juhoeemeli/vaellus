@@ -203,6 +203,7 @@ iframe.alkukuva{
 	border: 1px solid white;
 }
 .image iframe {
-  border: 1px solid white;
-  opacity: 0.66;
+ 	border: 1px solid white;
+	opacity: 0.66;
+	transform: scale(0.4, 0.4);
 }
