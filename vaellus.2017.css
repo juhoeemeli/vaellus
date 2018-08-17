@@ -7,9 +7,9 @@ body {
 }
 div#verho, #pohja{
   background-size: 100%;
-	position: absolute;
-	top: 7px;
-	left: calc((100% - 900px)/2); /*taustan leveys asetetaan tässä*/
+  position: absolute;
+  top: 7px;
+  left: calc((100% - 900px)/2); /*taustan leveys asetetaan tässä*/
   /*width: 100%;*/
   width: 900px;
   height: calc(100% - 7px);
@@ -17,8 +17,8 @@ div#verho, #pohja{
 }
 div#verho {
   background-image: url('https://kuvat.vaellus.malmi.info/_IGP2002_tausta_00.png');
-	background-position: center top;
-	background-repeat: no-repeat;
+  background-position: center top;
+  background-repeat: no-repeat;
   background-size: 100%;
   pointer-events: none;
   z-index: 15;
@@ -183,7 +183,7 @@ iframe.alkukuva{
 .image {
   width: 320px;
   height: auto;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
   border: 0px;
   clear: both;
   text-align: center;
@@ -204,6 +204,6 @@ iframe.alkukuva{
 }
 .image iframe {
  	border: 1px solid white;
-	opacity: 0.66;
-	transform: scale(0.4, 0.4);
+	/*opacity: 0.66;*/
+	transform: scale(0.75, 0.75);
 }
