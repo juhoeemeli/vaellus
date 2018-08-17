@@ -177,6 +177,10 @@ table, th, td {
 div#alkukuva{
 	padding-top: 60px;
 }
+div#skaalattu{
+  padding: 0;
+  overflow: hidden;
+}
 iframe.alkukuva{
   /* 		transform: scale(0.5, 0.5);	*/
 }
@@ -203,7 +207,8 @@ iframe.alkukuva{
 	border: 1px solid white;
 }
 .image iframe {
- 	border: 1px solid white;
-	/*opacity: 0.66;*/
-	transform: scale(0.75, 0.75);
+  border: 1px solid white;
+  /*opacity: 0.66;*/
+  transform: scale(0.75, 0.75);
+  transform-origin: 0 0;
 }
