@@ -16,7 +16,7 @@ div#verho, #pohja{
   margin: 0;
 }
 div#verho {
-  background-image: url('http://kuvat.vaellus.malmi.info/_IGP2002_tausta_00.png');
+  background-image: url('https://kuvat.vaellus.malmi.info/_IGP2002_tausta_00.png');
 	background-position: center top;
 	background-repeat: no-repeat;
   background-size: 100%;
@@ -29,7 +29,7 @@ div#pohja {
   z-index: 0;
 }
 article {
-  /*background-image: url('http://kuvat.vaellus.malmi.info/_IGP2002_tausta_00.png');
+  /*background-image: url('https://kuvat.vaellus.malmi.info/_IGP2002_tausta_00.png');
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 900px;*/
@@ -41,6 +41,8 @@ article {
   height: 100%;
   margin: 0;
 }
+/*KAIKKI TAUSTAKUVAT PITÄÄ MUUTTAA VERHO-DIVIIN*/
+/*Kommentti alla on vanha, en muista mihin liittyy*/
 /* article::before {background-image: url('background.png');} /*IT NOT WORKING?!!*/
 article.paistunturit2007 {
   background-image: url('kuvat.vaellus.malmi.info/Kevo-Paistunturi 2007/background.png');
