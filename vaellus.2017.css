@@ -106,7 +106,8 @@ section.text {
 }
 section.images {
   width: 320px;
-  height: 500px;
+  /*height: 500px;*/ /*vanha asetus, kun oli vain 1 kuva näkyvissä*/
+  height: calc(100% - 60px); /*minus padding in section*/
   padding-left: 30px;
   /*padding-top: 90px;*/
 }
