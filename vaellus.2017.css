@@ -213,3 +213,6 @@ iframe.alkukuva{
   transform: scale(0.75, 0.75);
   transform-origin: 0 0;
 }
+.image.alkukuva{
+	padding-top: 60px;
+}
