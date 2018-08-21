@@ -211,9 +211,11 @@ iframe.alkukuva{
 }
 .image iframe {
   border: 1px solid white;
+  /*
   height: 320px;
   width: 320px;
-  /*opacity: 0.66;*/
+  opacity: 0.66;
+  */
   transform: scale(0.75, 0.75);
   transform-origin: 0 0;
 }
