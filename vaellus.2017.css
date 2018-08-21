@@ -233,8 +233,8 @@ iframe.alkukuva{
     left:0;
     width:100%;
     height:100%;
-    background-color: red;
-  	opacity: 0.66;
+    /*background-color: red;
+  	opacity: 0.66;*/
 }
 .karttalinkki a{
 	display:block;
