@@ -224,8 +224,7 @@ iframe.alkukuva{
 }
 .karttalinkkikehys{
   position:relative;
-  /*height: calc(320px + 1.2em);*/
-  height: initial;
+  height: calc(auto - 424px * 0.25);
 }
 .karttalinkki{
     position:absolute;
