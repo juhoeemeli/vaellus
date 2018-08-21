@@ -238,6 +238,7 @@ iframe.alkukuva{
 }
 .karttalinkki a{
 	display:block;
+  	height:100%;
 }
 .alkukuva.karttalinkki {
   	padding-top: 0;
