@@ -199,6 +199,7 @@ iframe.alkukuva{
   background-color: transparent;
   border: 0px;
   color: #0033cc;
+  float: inherit;
 }
 .image p {
   font-size: 0.9em;
