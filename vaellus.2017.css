@@ -236,6 +236,9 @@ iframe.alkukuva{
     background-color: red;
   	opacity: 0.66;
 }
+.karttalinkki a{
+	display:block;
+}
 .alkukuva.karttalinkki {
   	padding-top: 0;
   	/*height: 320px;*/
