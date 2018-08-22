@@ -90,13 +90,13 @@ header.muotkatunturit2012 {
 	padding-top: 130px;
 }
 section {
-	cursor: ns-resize;
+  cursor: ns-resize;
   width: 420px;
   height: inherit;
   margin: 0;
   border: 0;
-	padding-right: 30px;
-	padding-top: 60px; /*pudottaa kappaleet aluksi alemmas*/
+  padding-right: 30px;
+  padding-top: 60px; /*pudottaa kappaleet aluksi alemmas*/
   overflow: auto;
 }
 /* SUOMENNUS KÄYNNISSÄ, POISTETAAN .text JA .images KOHDAT KUN VALMISTA */
@@ -170,6 +170,7 @@ table, th, td {
 /*img {
 	width: inherit;
 } tarpeeton */
+
 #content {
   width: 840px;
   height: 60%;
@@ -177,6 +178,14 @@ table, th, td {
   /* height: 100% - header (padding+height+20); START HERE!*/
   margin: 0 auto 0 auto;
 }
+#sisältö {
+  width: 840px;
+  height: 60%;
+  height: calc(100% - 160px);
+  /* height: 100% - header (padding+height+20); START HERE!*/
+  margin: 0 auto 0 auto;
+}
+
 #column {
   /*width: 420px;*/
   height: 100%;
@@ -202,6 +211,14 @@ iframe.alkukuva{
   /* 		transform: scale(0.5, 0.5);	*/
 }
 .image {
+  width: 320px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 0px;
+  clear: both;
+  text-align: center;
+}
+.kuva {
   width: 320px;
   height: auto;
   margin-bottom: 20px;
