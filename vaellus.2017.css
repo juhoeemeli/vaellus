@@ -99,12 +99,26 @@ section {
 	padding-top: 60px; /*pudottaa kappaleet aluksi alemmas*/
   overflow: auto;
 }
-section.text {
+/* SUOMENNUS KÄYNNISSÄ, POISTETAAN .text JA .images KOHDAT KUN VALMISTA */
+/* Käytännössä pitää korjata .text ja .images luokat siirrettävistä artikkeleista*/
+section.text { 
+  width: 490px;
+  height: calc(100% - 60px); /*minus padding in section*/
+  text-align: justify;
+}
+section.teksti {
   width: 490px;
   height: calc(100% - 60px); /*minus padding in section*/
   text-align: justify;
 }
 section.images {
+  width: 320px;
+  /*height: 500px;*/ /*vanha asetus, kun oli vain 1 kuva näkyvissä*/
+  height: calc(100% - 60px); /*minus padding in section*/
+  padding-left: 30px;
+  /*padding-top: 90px;*/
+}
+section.kuvat {
   width: 320px;
   /*height: 500px;*/ /*vanha asetus, kun oli vain 1 kuva näkyvissä*/
   height: calc(100% - 60px); /*minus padding in section*/
