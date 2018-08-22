@@ -229,14 +229,6 @@ div#skaalattu{
   clear: both;
   text-align: center;
 }
-.kuva {
-  width: 320px;
-  height: auto;
-  margin-bottom: 20px;
-  border: 0px;
-  clear: both;
-  text-align: center;
-}
 .image a {
   background-color: transparent;
   border: 0px;
@@ -262,6 +254,40 @@ div#skaalattu{
   transform: scale(0.75, 0.75);
   transform-origin: 0 0;
 }
+.kuva {
+  width: 320px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 0px;
+  clear: both;
+  text-align: center;
+}
+.kuva a {
+  background-color: transparent;
+  border: 0px;
+  color: #0033cc;
+  float: inherit;
+}
+.kuva p {
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+.kuva img {
+	width: calc(320px - 2px); /*minus border width*/
+	border: 0;
+	border: 1px solid white;
+}
+.kuva iframe {
+  border: 1px solid white;
+  /*
+  height: 320px;
+  width: 320px;
+  opacity: 0.66;
+  */
+  transform: scale(0.75, 0.75);
+  transform-origin: 0 0;
+}
+
 .alkukuva{
 	padding-top: 60px;
 }
