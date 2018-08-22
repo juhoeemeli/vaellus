@@ -45,7 +45,7 @@ article {
 /*Kommentti alla on vanha, en muista mihin liittyy*/
 /* article::before {background-image: url('background.png');} /*IT NOT WORKING?!!*/
 #verho.paistunturit2007 {
-  background: linear-gradient(to right, transparent), url('https://kuvat.vaellus.malmi.info/2007 Paistunturit/background.jpg');
+  background: linear-gradient(to right, transparent), url('https://kuvat.vaellus.malmi.info/2007 Paistunturit/background.png');
 }
 article.kaldoaivi2008 {
   background-image: url('kuvat.vaellus.malmi.info/Kaldoaivi 2008/background2.jpg');
