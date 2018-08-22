@@ -44,8 +44,8 @@ article {
 /*KAIKKI TAUSTAKUVAT PITÄÄ MUUTTAA VERHO-DIVIIN*/
 /*Kommentti alla on vanha, en muista mihin liittyy*/
 /* article::before {background-image: url('background.png');} /*IT NOT WORKING?!!*/
-article.paistunturit2007 {
-  background-image: url('kuvat.vaellus.malmi.info/Kevo-Paistunturi 2007/background.png');
+#verho.paistunturit2007 {
+  background-image: url('kuvat.vaellus.malmi.info/Paistunturit 2007/background.jpg');
 }
 article.kaldoaivi2008 {
   background-image: url('kuvat.vaellus.malmi.info/Kaldoaivi 2008/background2.jpg');
