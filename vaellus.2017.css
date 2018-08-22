@@ -198,6 +198,19 @@ table, th, td {
 #column.right{
   width: 350px;
 }
+#palsta {
+  /*width: 420px;*/
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+#palsta.vasen {
+  width: 490px;
+}
+#palsta.oikea{
+  width: 350px;
+}
+
 /*
 div#alkukuva{
 	padding-top: 60px;
