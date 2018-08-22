@@ -220,9 +220,7 @@ div#skaalattu{
   /*padding: 0;*/
   overflow: hidden;
 }
-iframe.alkukuva{
-  /* 		transform: scale(0.5, 0.5);	*/
-}
+
 .image {
   width: 320px;
   height: auto;
