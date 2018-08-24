@@ -94,7 +94,10 @@ section {
   margin: 0;
   border: 0;
   padding-right: 30px;
-  padding-top: 60px; /*pudottaa kappaleet aluksi alemmas*/
+  /*padding-top: 60px; pudottaa kappaleet aluksi alemmas*/
+  /*kaksi seuraavaa korvaavat edellisen, linkatut kuvat tulevat samalla oikealla korkeudelle*/
+  position: relative;
+  top: 60px;
   overflow: auto;
 }
 /* SUOMENNUS KÄYNNISSÄ, POISTETAAN .text JA .images KOHDAT KUN VALMISTA */
@@ -252,9 +255,9 @@ div#skaalattu{
   transform: scale(0.75, 0.75);
   transform-origin: 0 0;
 }
-.image:target{
+/*.image:target{
   padding-top: 60px;
-}
+}*/ /*ks. section */
 .kuva {
   width: 320px;
   height: auto;
@@ -288,9 +291,11 @@ div#skaalattu{
   transform: scale(0.75, 0.75);
   transform-origin: 0 0;
 }
-.kuva:target{
+
+/*.kuva:target{
   padding-top: 60px;
-}
+}*/ /*EI TARPEEN (section position relative top 60px*/
+
 .alkukuva{
 	padding-top: 60px;
 }
