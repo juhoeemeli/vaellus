@@ -253,7 +253,7 @@ div#skaalattu{
   transform-origin: 0 0;
 }
 :target{
-  padding-top: 60px;
+  padding-top: 120px;
 }
 .kuva {
   width: 320px;
