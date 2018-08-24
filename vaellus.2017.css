@@ -252,7 +252,7 @@ div#skaalattu{
   transform: scale(0.75, 0.75);
   transform-origin: 0 0;
 }
-.image :target{
+.image:target{
   padding-top: 120px;
 }
 .kuva {
